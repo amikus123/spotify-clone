@@ -6,13 +6,13 @@ let first = true
 //show menu
 const showMenu = () => {
   menu.style.display = "flex";
-  menu.style.top = "80px";
+  menu.style.right = "0";
   body.style.overflow = "hidden";
   dimOn();
 };
 //hide menu
 const hideMenu = () => {
-  menu.style.top = "-100%";
+  menu.style.right = "-100%";
   body.style.overflow = "auto";
   dimOff();
 };
@@ -26,7 +26,7 @@ hamburger.addEventListener("click", (e) => {
   e.preventDefault();
   hamburger.firstChild.classList.toggle("fa-bars");
   hamburger.firstChild.classList.toggle("fa-times");
-  if (menu.style.top === "-100%" || first) {
+  if (menu.style.right === "-100%" || first) {
     showMenu();
   } else {
     hideMenu();
