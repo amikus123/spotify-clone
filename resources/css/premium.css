@@ -105,7 +105,39 @@ color:white
 }
 .premium-link{
 color:inherit;
+font-size: inherit;
 }
+
+@media (max-width:880px){
+.premium-hero-heading{
+    font-size: 48px;
+}
+.premium-hero-sub{
+    font-size: 20px;
+}
+.premium-hero-bottom-text{
+    font-size: 12px;
+}
+.premium-hero-buttons{
+    flex-direction: column;
+}
+.btn{
+    margin: 1rem auto;
+    width:75%;
+}
+}
+@media (max-width:480px){
+    .premium-hero-heading{
+        font-size: 36px;
+    }
+    .premium-hero-sub{
+        font-size: 16px;
+    }
+    .premium-hero-bottom-text{
+        font-size: 12px;
+    }
+
+    }
 /* secion 2 */
 .premium-2{
     
@@ -113,7 +145,7 @@ color:inherit;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 1rem
+    padding: 4rem 1rem;
 }
 .premium-2-container{
     display: flex;
@@ -124,6 +156,7 @@ margin: 0 auto;
 .premium-reasons-header{
     font-size: 48px;
     font-weight: 900;
+    padding: 2rem 0;
 }
 .premium-list{
 list-style: none;
@@ -132,22 +165,26 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 .premium-it{
-width: 50%;
+width: 25%;
 display: flex;
 padding: 1rem;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
 }
 .premium-ima{
-    display: flex;
+display: flex;
 background-color: rgb(238, 238, 238);
 border-radius: 50%;
-height: 75px;
-width: 75px;
-margin: auto 0;
+height: 125px;
+width: 125px;
+margin:  0;
 align-items: center;
 justify-content: center;
 }
 .premium-circle-icon{
     display: inline;
+    font-size: 48px;
 
 }
 .premium-item-words{
@@ -158,10 +195,59 @@ text-align: left;
 font-weight: 700;
 font-size: 21px;
 margin-bottom: 0.5rem;
+text-align: center;
+
 }
 .premium-item-bottom{
 line-height: 1.5;
+text-align: center;
+
 }
+/* media */
+@media (max-width:1200px){
+    .premium-list{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+        .premium-it{
+        width: 50%;
+        display: flex;
+        padding: 1rem;
+        }
+        .premium-ima{
+            display: flex;
+        background-color: rgb(238, 238, 238);
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+        /* margin: auto 0; */
+        align-items: center;
+        justify-content: center;
+        }
+        .premium-circle-icon{
+            display: inline;
+            font-size: 36px;
+        
+        }
+        .premium-item-words{
+        padding: 1rem;
+        text-align: left;
+        }
+        .premium-item-top{
+        font-weight: 700;
+        font-size: 21px;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        }
+        .premium-item-bottom{
+        line-height: 1.5;
+        text-align: center;
+
+        }
+}
+
 /* premium 3*/
 .premium-3{
     background: rgb(248, 248, 248);
