@@ -51,6 +51,7 @@
   justify-content: center;
   flex: 0 1 auto;
   z-index: 10;
+  top: 0;
 }
 .content {
   margin: 0 auto;
@@ -146,6 +147,10 @@
 .hero-btn:hover {
   transition: 0.2s ease-out;
   background-color: white;
+}
+.hero-btn-link{
+  text-decoration: none;
+  color: inherit;
 }
 .p1400 {
   display: block;

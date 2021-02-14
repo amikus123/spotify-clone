@@ -1,0 +1,144 @@
+.help-main {
+  display: flex;
+  min-height: 1000px;
+  margin-top: 80px;
+  flex-direction: column;
+}
+.help-search-container {
+  background-color: rgb(4, 13, 136);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.help-question {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+/* search */
+.help-input-container{
+margin: 2rem auto;
+max-width: 820px;
+width: 100%;
+}
+.help-search-box{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 4px;
+}
+.help-serach-icon{
+color: #919496;
+font-size: 20px;
+margin: 0.8rem;
+}
+.help-input {
+    width: 100%;
+
+    border: none;
+    outline: none;
+}
+.help-close-icon{
+    display: none;
+}
+/* faq */
+.help-faq-list {
+  display: flex;
+  max-width: 992px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.help-top {
+    padding: 1rem;
+  width: 25%;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.help-grey {
+  color: #919496;
+  font-weight: bolder;
+  margin-bottom: 0.75;
+}
+.help-top-link {
+    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* second section */
+.help-list-container {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+.help-category-container {
+  /* width: 33%; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.help-category-name {
+font-size: 24px;
+font-weight: 900;
+padding: 1rem 0;
+}
+.help-category-list-container {
+}
+.help-category-ul {
+  list-style: none;
+}
+.help-category-li {
+padding: 0.25rem 0;
+}
+.help-category-a {
+  text-decoration: none;
+  color: #2d46b9;
+  font-size: 18px;
+  font-weight: 700;
+  font-weight: bold;
+}
+/* third */
+.help-com-container {
+    padding: 3rem 1rem;
+    display:flex ;
+    flex-direction: column;
+    justify-content:center ;
+
+}
+.help-h {
+    margin: 0 auto;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+.help-p {
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 1rem 0;
+    text-align: center;
+}
+.com-but {
+    max-width: 400px;
+    color:white;
+    background-color: #2d46b9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.com-but:hover{
+    background-color: #2d47b9a8;
+    transform: scale(1.05);
+}
