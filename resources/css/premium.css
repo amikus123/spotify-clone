@@ -260,38 +260,91 @@ text-align: center;
 .premium-3-container{
     display: flex;
     flex-direction: column;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .premium-plans-header{
-
+    padding-top: 2.5rem;
+font-size: 40px;
+font-weight: 900;
 }
 .premium-plans-bottom{
+    margin-top: 0.6rem;
+    font-size: 18px;
+    color:#919496;
 
 }
 .premium-plans-ul{
+padding: 2rem 1rem;
+list-style: none;
+display: flex;
 
 }
 .premium-card{
+width: 25%;
+border-radius: 10px;
+box-shadow: 0px 0px 8px 1px rgba(0, 0, 0,0.3);
+margin: 0 1rem;
+min-height: 820px;
+height: auto;
+}
+@media (max-width:1080px){
+    .premium-plans-ul{
+        padding: 2rem 1rem;
+        flex-direction: column;
+        }
+    .premium-card{
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        min-height: 0px;
+        max-width: 500px;
+        }
 
+        .premium-card{
+            margin:  1rem auto;
+
+        }
 }
 .premium-card-top{
-
+padding: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+height: 100%;
+text-align: left;
 }
 .premium-blue{
-
+    background-color: blue;
+    padding: 0.2rem;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+    margin-bottom: 1rem;;
 }
+
 .premium-card-desc{
+font-weight: 700;
+font-size: 20px;
+margin-bottom: 1rem;;
 
 }
 .premium-card-text{
-
+    font-size: 14px;
+    color:#000000;
+    
+}
+hr{
+    margin:1rem 0;
 }
 .premium-card-ul{
-
+list-style: none;
+min-height: 400px;
 }
 .premium-card-li{
-
+padding: 0.2rem 0;
 }
 .premium-card-icon{
 
@@ -303,8 +356,19 @@ text-align: center;
 
 }
 .premium-card-btn{
-
+width: 100%;
+background-color: #000000;
+color: white;
+font-weight: 700;
+margin-top: 0.3rem;
+border: 1px solid black;
+}
+.premium-card-btn:hover{
+    transform: scale(1.05);
+    background-color: rgb(83, 79, 79);
 }
 .premium-card-small{
-
+margin-top: 2rem;
+font-size: 12px;
+text-align: left;
 }
