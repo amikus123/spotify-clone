@@ -78,6 +78,9 @@
   font-weight: bolder;
   margin-bottom: 0.75rem;
 }
+#mobile-grey{
+  display: none;
+}
 .help-top-link {
   font-size: 18px;
   color: white;

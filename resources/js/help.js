@@ -39,7 +39,9 @@ const toggleList = (header) =>{
   const div = header.nextElementSibling
   div.classList.toggle('help-category-list-container-on')
   const arrow = header.firstElementChild 
+  arrow.classList.toggle('fa-arrow-up')
   arrow.classList.toggle('fa-arrow-down')
+
 }
 
 // kaxdy ma przypisany eventListener 
