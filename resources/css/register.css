@@ -1,198 +1,215 @@
 .register {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1.5rem;
-    max-width: 550px;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 550px;
+  margin: 0 auto;
+}
 
-  .register > a {
-    font-size: 64px;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
-  }
-  .register  a  span {
-    padding-left: 0.5rem;
-    font-size: 40px;
-    font-weight: 900;
-  }
-  .register >h1{
-      font-size: 32px;
-    font-weight: bolder;
-    padding-bottom: 2rem;
-  }
-  .register > p {
-    font-weight: 700;
-    font-size: 18px;
-  }
-  .register >h2{
-    font-weight: 700;
-    font-size: 20px;
-    padding:0.5rem 0;
-  }
-  .register label{
+.register > a {
+  font-size: 64px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.register a span {
+  padding-left: 0.5rem;
+  font-size: 40px;
+  font-weight: 900;
+}
+.register > h1 {
+  font-size: 32px;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+}
+.register > p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.register > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0.5rem 0;
+}
+.register label {
+  display: flex;
+  padding: 0.5rem 0rem;
+}
+.register label input {
+  margin: 0.4rem 0.5rem;
+}
+.register label span {
+  text-align: left;
+  margin-left: 0.5rem;
+}
+/* buttons */
+.register > button {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+.register > button > a > i {
+  padding-right: 0.5rem;
+}
+.register > button > a {
+  text-decoration: none;
+  color: inherit;
+}
+.register button {
+  font-weight: 700;
+}
+.fb {
+  background-color: #3b5998;
+  transition: 0.2s linear all;
+  color: white;
+}
+.fb:hover {
+  background-color: #3a61b3;
+  transition: 0.2s linear all;
+}
+.ap {
+  background-color: #000000;
+  transition: 0.2s linear all;
+  color: white;
+}
+.ap:hover {
+  background-color: #333;
+  transition: 0.2s linear all;
+}
+.go {
+  background-color: #fff;
+  transition: 0.2s linear all;
+  color: #1e1e1f;
+  border: 2px solid #616467 !important;
+}
+.go:hover {
+  background-color: #616467;
+  color: #fff;
+
+  transition: 0.2s linear all;
+}
+.register .lo {
+  margin: 2rem auto 0 !important;
+  background-color: #15883e;
+  color: #fff;
+  transition: 0.2s linear all;
+  width: 80%;
+  max-width: 400px;
+  ;
+}
+
+.register .lo:hover {
+  background-color: #1db954;
+  transition: 0.2s linear all;
+}
+
+.lo > a {
+  color: inherit;
+  text-decoration: none;
+}
+/* end */
+.register > p {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.separator {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5rem 0;
+}
+.separator > span {
+  display: inline-block;
+  font-weight: 700;
+}
+.separator > hr {
+  width: 40%;
+  height: 1px;
+  margin: auto;
+}
+.login-row {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5rem;
+}
+.login-row > label {
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+.login-row > input {
+  border: 1px solid #d9dadc;
+  padding: 1rem;
+  height: 40px;
+  border-radius: 5px;
+}
+.login-row > span {
+  padding: 0.5rem 0.3rem;
+}
+.forgot {
+  width: 100%;
+  padding: 0.5rem 0.5rem 1.5rem;
+  text-align: start;
+  display: inline-block;
+}
+.forgot:hover {
+  color: #1ed760;
+}
+.gender-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.gender-box > span {
+  padding: 0.5rem;
+  font-weight: 800;
+}
+.gender-choices {
+  display: flex;
+}
+.gender-choices > label{
+  padding: 1rem 1rem 1rem 0;
+}
+.last-reg {
+  margin: 0.5rem 0rem 0.5rem;
+}
+
+#test-reg {
+  display: none;
+  text-align: left;
+  width: 24px;
+  height: 24px;
+  border: 1px solid green !important;
+  display: block;
+  /* justify-self:flex-start;
       display: flex;
-    padding:0.5rem 0rem;
-  }
-  .register label input{
-      margin: 0.5rem;
-  }
-  .register  label span{
-      text-align: left;
-      margin-left: 0.5rem;
-  }
-  /* buttons */
-  .register > button {
-    width: 100%;
-    margin-bottom: 0.75rem;
-  }
-  .register > button > a > i {
-    padding-right: 0.5rem;
-  }
-  .register > button > a {
-    text-decoration: none;
-    color: inherit;
-  }
-  .register button {
-    font-weight: 700;
-  }
-  .fb {
-    background-color: #3b5998;
-    transition: 0.2s linear all;
-    color: white;
-  }
-  .fb:hover {
-    background-color: #3a61b3;
-    transition: 0.2s linear all;
-  }
-  .ap {
-    background-color: #000000;
-    transition: 0.2s linear all;
-    color: white;
-  }
-  .ap:hover {
-    background-color: #333;
-    transition: 0.2s linear all;
-  }
-  .go {
-    background-color: #fff;
-    transition: 0.2s linear all;
-    color: #1e1e1f;
-    border: 2px solid #616467 !important;
-  }
-  .go:hover {
-    background-color: #616467;
-    color: #fff;
-  
-    transition: 0.2s linear all;
-  }
-  .lo {
-    margin: 0 !important;
-    background-color: #15883e;
-    color: #fff;
-    transition: 0.2s linear all;
-  }
-  
-  .lo:hover {
-    background-color: #1db954;
-    transition: 0.2s linear all;
-  }
-  .re {
-  }
-  /* end */
-  .register > p {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-  }
-  .separator {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 0.5rem 0;
-  }
-  .separator > span {
-    display: inline-block;
-    font-weight: 700;
-  }
-  .separator > hr {
-    width: 40%;
-    height: 1px;
-    margin: auto;
-  }
-  .login-row {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 0.5rem;
-  }
-  .login-row > label {
-    padding-bottom: 0.5rem;
-    font-weight: 700;
-  }
-  .login-row > input {
-    border: 1px solid #d9dadc;
-    padding: 1rem;
-    height: 40px;
-    border-radius: 5px;
-  }
-  .forgot {
-    width: 100%;
-    padding: 0.5rem 0.5rem 1.5rem;
-    text-align: start;
-    display: inline-block;
-  }
-  .forgot:hover {
-    color: #1ed760;
-  }
+      justify-content: flex-end; */
+}
+#test-reg::after {
+  margin-left: 2rem;
+  content: "Zapamiętaj\00a0mnie";
+  display: inline-block;
+}
+@media (max-width: 500px) {
   .rember {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 0.5rem;
     margin: 0 auto;
   }
-  .last-reg {
-    margin: 0.5rem 0rem 0.5rem;
+  .div {
+    padding: 0rem 1rem 1rem;
   }
-  
-  #test-reg {
-      display: none;
-    text-align: left;
-    width: 24px;
-    height: 24px;
-    border:1px solid green!important;
-    display: block;
-    /* justify-self:flex-start;
-      display: flex;
-      justify-content: flex-end; */
+  .lo {
+    width: 100% !important;
   }
-  #test-reg::after {
-    margin-left: 2rem;
-    content: "Zapamiętaj\00a0mnie";
-    display: inline-block;
-  }
-  @media (max-width:500px){
-      .rember {
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: space-between;
-          padding: 0.5rem;
-          margin: 0 auto;
-        }
-        .div{
-          padding:0rem 1rem 1rem;
-      }
-      .lo{
-          width: 100%!important;
-      }
-  }
-  
+}
+.remove{
+  display: none;
+}
