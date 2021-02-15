@@ -5,20 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - login</title>
-    <script src="https://kit.fontawesome.com/b831de97d0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b831de97d0.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://use.fontawesome.com/6a1d1110ab.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link type="text/css" rel="stylesheet" href="resources/css/login.css" />
     <link type="text/css" rel="stylesheet" href="resources/css/style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body id="body">
-    
+  <body id="body" class="login">
+    <a class="" href="/">
+      <i class="fa fa-spotify"></i>
+      <span class="">Spotify</span>
+    </a>
+    <hr class="premium-first-hr" />
+    <p>Aby kontynuować, zaloguj się do Spotify.</p>
+    <button class="btn fb">
+      <a href="" class="socials"
+        ><i class="fa fa-facebook-f"></i> KONTYNUUJ Z FACEBOOKIEM</a
+      >
+    </button>
+    <button class="btn ap">
+      <a href="" class="socials"
+        ><i class="fa fa-apple"></i> KONTYNUUJ Z APPLE</a
+      >
+    </button>
+    <button class="btn go">
+      <a href="" class="socials"
+        ><i class="fa fa-google"></i> KONTYNUUJ Z GOOGLE</a
+      >
+    </button>
+    <div class="separator">
+      <hr />
+      <span>LUB</span>
+      <hr />
+    </div>
+    <form>
+      <div class="login-row">
+        <label for="username">Adres e-mail lub nazwa użytkownika</label>
+        <input
+          type="text"
+          name="username"
+          id=""
+          placeholder="Adres e-mail lub nazwa użytkownika"
+        />
+      </div>
+
+      <div class="login-row">
+        <label for="username">Hasło</label>
+        <input type="password" name="username" id="" placeholder="Hasło" />
+      </div>
+      <a href="" class="forgot">Nie pamiętasz hasła?</a>
+      <div class="rember">
+        <div class="div">
+            <input type="checkbox" name="remeber" id="test-reg"/> 
+        </div>
+        <button class="btn lo">ZALOGUJ SIĘ</button>
+      </div>
+    </form>
+
+    <hr />
+    <p class="last-reg">Nie masz jeszcze konta?</p>
+    <button class="btn go re">
+      <a href="/register.html" class="">ZAJERESTUJ SIĘ W SPOTIFY</a>
+    </button>
   </body>
-  <script src="resources/js/index.js"></script>
   <script src="resources/js/login.js"></script>
 </html>
 <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
